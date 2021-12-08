@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    display: grid;
+    width: 600px;
+    grid-template-columns: 340px 360px 380px 320px;
+    justify-content: space-between;
+}
+
+.box :first-child {
+    align-self: center;
+}
+
+.header {
+    background: rgb(72, 73, 72);
+    height: 2px;
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+}
+
+h3,
+p,
+h2 {
+    text-align: center;
+    margin-bottom: 9px;
+    margin-top: 8px;
+}
+
+h3 {
+    line-height: 3px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 8px;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+section {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+header {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    color: blanchedalmond;
+    background-color: rgb(63, 62, 62);
+}
+
+button {
+    width: 10%;
+    color: rgb(255, 255, 255);
+    border-color: teal;
+    background-color: teal;
+    border-radius: 15px;
+}
+
+.hrbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbetwen {
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.iframe-center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}

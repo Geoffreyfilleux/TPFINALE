@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Retroking";
+    src: url("Retroking.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Atlantic Cruise";
+    src: url("Atlantic_Cruise-Demo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ubiquitous";
+    src: url("Ubiquitous.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Ubiquitous italic";
+    src: url("Ubiquitous_Italic.ttf") format("truetype");
+}
